@@ -230,7 +230,6 @@ class SpawnModelNode():
 
 
 if __name__ == "__main__":
-    print("SpawnModelNode args: %s" % (str(os.args)))
     sm = SpawnModelNode()
     rospy.init_node('spawn_model', anonymous=True)
     exit_code = sm.run()
