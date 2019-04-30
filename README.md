@@ -12,5 +12,5 @@ https://raw.githubusercontent.com/catkin/catkin_tools/master/catkin_tools/termin
 
 
 dependence:
-sudo apt install cmake python-empy libconsole-bridge-dev libpoco-dev libboost-all-dev libeigen3-dev  qt5-default  libjpeg-dev libtiff5-dev   python-sip-dev  gazebo9  libtinyxml2-dev libtinyxml-dev python-pyqt5 libcurl4-gnutls-dev libresource-retriever-dev liblz4-dev   libfltk1.3-dev google-mock liburdfdom-dev libassimp-dev  liboctomap-dev libqhull-dev uuid-dev pyqt5-dev  liblz4-dev   libfltk1.3-dev google-mock liburdfdom-dev libassimp-dev  liboctomap-dev libqhull-dev uuid-dev libbz2-dev libgazebo9-dev libpolled-camera-dev libfcl-dev  libpcl-dev libgtk2.0-dev libglew-dev 
+sudo apt install cmake python-empy libconsole-bridge-dev libpoco-dev libboost-all-dev libeigen3-dev qt5-default libjpeg-dev libtiff5-dev python-sip-dev libtinyxml2-dev libtinyxml-dev python-pyqt5 libcurl4-gnutls-dev libresource-retriever-dev liblz4-dev libfltk1.3-dev google-mock liburdfdom-dev libassimp-dev liboctomap-dev libqhull-dev uuid-dev pyqt5-dev liblz4-dev libfltk1.3-dev google-mock liburdfdom-dev libassimp-dev liboctomap-dev libqhull-dev uuid-dev libbz2-dev libgazebo9-dev libpolled-camera-dev libfcl-dev libpcl-dev libgtk2.0-dev libglew-dev  libompl-dev
 
