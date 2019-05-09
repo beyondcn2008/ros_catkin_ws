@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>test_node</name>
+  <name>my_tools</name>
   <version>0.0.0</version>
-  <description>The test_node package</description>
+  <description>The my tools package</description>
 
   <maintainer email="cmm@todo.todo">cmm</maintainer>
 
@@ -12,7 +12,6 @@
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>my_tools</build_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>

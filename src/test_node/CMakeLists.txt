@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  my_tools
 )
 
 catkin_package(
@@ -25,4 +26,7 @@ target_link_libraries(node_sub ${catkin_LIBRARIES})
 add_executable(node_pub ./src/node_pub.cpp)
 target_link_libraries(node_pub ${catkin_LIBRARIES})
 
-install(TARGETS node_sub node_pub RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+add_executable(my_test ./src/my_test.cpp)
+target_link_libraries(my_test ${my_tools_LIBRARIES})
+
+install(TARGETS node_sub node_pub my_test RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
