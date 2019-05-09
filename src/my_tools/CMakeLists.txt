@@ -3,6 +3,11 @@ project(my_tools)
 
 find_package(catkin REQUIRED COMPONENTS cmake_modules)
 
+catkin_package(
+	INCLUDE_DIRS include 
+	LIBRARIES my_tools
+)
+
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}

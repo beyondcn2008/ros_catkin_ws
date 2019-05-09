@@ -52,6 +52,7 @@ COMPONENTS
   std_msgs
   trajectory_msgs
   visualization_msgs
+  my_tools
 )
 
 set(VERSION_FILE_PATH "${CATKIN_DEVEL_PREFIX}/include")

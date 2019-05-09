@@ -38,6 +38,8 @@
 #include <boost/bind.hpp>
 #include <algorithm>
 
+#include <my_tools/my_tools.h>
+
 // we could really use some c++11 lambda functions here :)
 
 namespace planning_request_adapter
@@ -51,8 +53,13 @@ bool callPlannerInterfaceSolve(const planning_interface::PlannerManager* planner
 {
   planning_interface::PlanningContextPtr context = planner->getPlanningContext(planning_scene, req, res.error_code_);
   if (context)
-    return context->solve(res);
-  else
+  {
+    bool rs = context->solve(res);
+  	my_tools::printBackTrace();
+
+  	printf("context->solve end\n");
+  	return rs;
+  } else
     return false;
 }
 }
