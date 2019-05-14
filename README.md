@@ -21,3 +21,5 @@ roslaunch ur_gazebo ur10.launch
 roslaunch ur10_moveit_config ur10_moveit_planning_execution.launch sim:=true
 
 roslaunch ur10_moveit_config moveit_rviz.launch config:=true
+
+在模拟测试时，为了减低cpu消耗，可以把gazebo plugin的推送配置频率pub_clock_frequency（empty_world.launch文件）减少，以及gazebo的empty.world配置文件的real_time_update_rate参数减少（默认为1000）
